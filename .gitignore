@@ -20,3 +20,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea/atlassian-ide-plugin.xml
+.idea/compiler.xml
+.idea/dbnavigator.xml
+.idea/drPoloniex.iml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/libraries/R_User_Library.xml
+.idea/libraries/Spring_4_3_12_RELEASE.xml
+.idea/libraries/WebSocket_1_0.xml
+.idea/libraries/javax_json_processing_1_0.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+lib/
+/lib/
+/.idea/

@@ -1,0 +1,12 @@
+# Cryto Currency Poloniex Data Receiver - Dockerfile
+# Image: https://hub.docker.com/_/openjdk/
+FROM openjdk:8
+
+MAINTAINER  David Q. Romney <dqromney@gmail.com>
+
+COPY "drPoloniex-1.0-SNAPSHOT-jar-with-dependencies.jar" /usr/src/ccdr/ccdr.jar
+
+WORKDIR /usr/src/ccdr
+
+# CMD ["java", "-jar", "ccdr.jar"]
+ENTRYPOINT ["java", "-jar", "drPoloniex.jar"]
